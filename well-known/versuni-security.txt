@@ -1,0 +1,7 @@
+Contact: mailto:cybersecurity@versuni.com
+Expires: 2029-02-17T10:35
+Encryption: https://www.versuni.com/pgp-key.txt
+Acknowledgments: https://www.versuni.com/security/hall-of-fame/
+Preferred-Languages: en
+Canonical: https://www.versuni.com/.well-known/security.txt
+Policy: https://www.versuni.com/security

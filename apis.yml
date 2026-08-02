@@ -1,7 +1,26 @@
 aid: versuni
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/versuni.png
 name: Versuni
-description: 'Versuni is a company surfaced as a portfolio company of hillhouse and added to the API Evangelist
-  network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the enrichment pipeline.'
+description: 'Versuni is a global domestic-appliances company headquartered in Amsterdam,
+  Netherlands, formed when Philips Domestic Appliances was carved out and acquired by
+  Hillhouse Investment in 2021. With more than 130 years of heritage, roughly 6,400
+  employees and a presence in over 100 countries, Versuni designs and sells cooking,
+  coffee, garment-care, floor-care and climate-care products under brands including
+  Philips, Saeco, Gaggia, Preethi, Senseo and L''OR Barista. Its connected appliances
+  are supported by the consumer HomeID app (formerly NutriU). Versuni publishes no
+  public developer API program; its public API-adjacent surface is limited to an RFC
+  9116 security.txt and a responsible-disclosure program.'
 url: https://raw.githubusercontent.com/api-evangelist/versuni/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,10 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Consumer
+- Home Appliances
+- Kitchen Appliances
+- Coffee
+- Consumer Electronics
+- Smart Home
+- IoT
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +49,30 @@ maintainers:
 common:
 - type: Website
   url: https://www.versuni.com
+- type: About
+  url: https://www.versuni.com/about-us
+- type: Support
+  url: https://www.versuni.com/contact
+- type: Blog
+  url: https://www.versuni.com/newsroom
+- type: PrivacyPolicy
+  url: https://www.versuni.com/privacy-notice
+- type: TermsOfService
+  url: https://www.versuni.com/terms-of-use
+- type: Security
+  url: https://www.versuni.com/security
+- type: SecurityTxt
+  url: well-known/versuni-security.txt
+- type: WellKnown
+  url: well-known/versuni-well-known.yml
+- type: DomainSecurity
+  url: security/versuni-domain-security.yml
+- type: VulnerabilityDisclosure
+  url: security/versuni-vulnerability-disclosure.yml
+- type: LLMsTxt
+  url: llms/versuni-llms.txt
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 5
+  pass: local-v1

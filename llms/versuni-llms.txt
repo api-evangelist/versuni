@@ -1,0 +1,21 @@
+# Versuni
+
+> Versuni is a global home-appliances company, headquartered in Amsterdam, Netherlands, that was formed when Philips Domestic Appliances was carved out and acquired by Hillhouse Investment in 2021. It designs and sells kitchen and home appliances — air fryers, coffee machines, kitchen appliances, garment care, home care and mother-and-child care — under a portfolio of brands including Philips, Saeco, Gaggia, Preethi, Senseo and L'OR Barista. Its connected appliances are supported by the consumer HomeID app (formerly NutriU). Versuni does not publish a public developer API program; the profile below indexes the company's public corporate, security and product surfaces.
+
+## Company
+- [Versuni](https://www.versuni.com): Corporate website and product portfolio.
+- [Airfryer products](https://www.versuni.com/products/airfryer/): Philips Airfryer product line.
+
+## Security
+- [security.txt](https://www.versuni.com/.well-known/security.txt): RFC 9116 security contact and policy.
+- [Security / Responsible Disclosure](https://www.versuni.com/security): Responsible disclosure program, security advisories and hall of fame.
+- [Hall of Fame](https://www.versuni.com/security/hall-of-fame/): Acknowledgment of security researchers.
+
+## Apps
+- [HomeID (NutriU) — App Store](https://apps.apple.com/fi/developer/versuni-netherlands-b-v/id1576853920): Consumer companion app for Versuni connected appliances, published by Versuni Netherlands B.V.
+
+## Artifacts
+- [apis.yml](https://raw.githubusercontent.com/api-evangelist/versuni/refs/heads/main/apis.yml): API Evangelist company profile (APIs.json).
+- [security.txt (captured)](https://raw.githubusercontent.com/api-evangelist/versuni/refs/heads/main/well-known/versuni-security.txt)
+- [Domain security probe](https://raw.githubusercontent.com/api-evangelist/versuni/refs/heads/main/security/versuni-domain-security.yml)
+- [Vulnerability disclosure](https://raw.githubusercontent.com/api-evangelist/versuni/refs/heads/main/security/versuni-vulnerability-disclosure.yml)
