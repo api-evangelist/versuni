@@ -58,6 +58,11 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: ParentCompany
+  url: https://apis.io/providers/hillhouse/
+  name: Hillhouse Investment
+  x-relationship: acquired
+  x-evidence: "Versuni is a global domestic-appliances company headquartered in Amsterdam, Netherlands, formed when Philips Domestic Appliances was carved out and acquired by Hillhouse Investment in 2021."
 - type: Website
   url: https://www.versuni.com
 - type: About
